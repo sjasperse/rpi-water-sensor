@@ -1,0 +1,22 @@
+{
+  "name": "rpi-water-sensor",
+  "version": "1.0.0",
+  "description": "RPi2 water sensor test project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjasperse/rpi-water-sensor.git"
+  },
+  "author": "sjasperse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjasperse/rpi-water-sensor/issues"
+  },
+  "homepage": "https://github.com/sjasperse/rpi-water-sensor",
+  "dependencies": {
+    "johnny-five": "^0.8.73"
+  }
+}

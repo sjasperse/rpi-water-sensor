@@ -28,10 +28,12 @@ pumpRelay.value = false;
 pumpRelay.turnOn = function () {
  	this.value = true;
  	this.emit('change');
+ 	this.emit('turnedOn');
 };
 pumpRelay.turnOff = function () {
  	this.value = false;
  	this.emit('change');
+ 	this.emit('turnedOff');
 };
 exports.pumpRelay = pumpRelay;
 

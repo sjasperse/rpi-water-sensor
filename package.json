@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sjasperse/rpi-water-sensor",
   "dependencies": {
-    "johnny-five": "^0.8.73"
+    "johnny-five": "^0.8.73",
+    "raspi-io": "^3.1.1"
   }
 }
